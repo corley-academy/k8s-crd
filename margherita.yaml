@@ -1,0 +1,10 @@
+apiVersion: stable.mycorp.com/v1
+kind: Pizza
+metadata:
+  name: margherita
+spec:
+  ingredients:
+  - pomodoro
+  - mozzarella
+  price: 7.00
+  replicas: 1

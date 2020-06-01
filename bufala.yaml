@@ -1,0 +1,10 @@
+apiVersion: stable.mycorp.com/v1
+kind: Pizza
+metadata:
+  name: bufala
+spec:
+  ingredients:
+  - pomodoro
+  - mozzarella di bufala
+  price: 9.00
+  replicas: 1
